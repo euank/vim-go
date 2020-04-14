@@ -43,7 +43,7 @@ experience.
   * Quickly execute your current file(s) with |:GoRun|.
   * Improved syntax highlighting and folding.
   * Debug programs with integrated `delve` support with |:GoDebugStart|.
-  * Code completion support via `gocode` and `gopls`.
+  * Code completion support via `gopls`.
   * `gofmt` or `goimports` on save keeps the cursor position and undo history.
   * Go to symbol/declaration with |:GoDef|.
   * Look up documentation with |:GoDoc| or |:GoDocBrowser|.
@@ -1475,7 +1475,7 @@ other packages. Valid options are `gopls` and `guru`. By default it's `guru`.
 <
                                                       *'g:go_implements_mode'*
 
-Use this option to define the command to be used for |:GoImplements|. 
+Use this option to define the command to be used for |:GoImplements|.
 The Implements feature in gopls is still new and being worked upon.
 Valid options are `gopls` and `guru`. By default it's `guru`.
 >
